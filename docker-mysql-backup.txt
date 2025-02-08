@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # Define the backup directory
-BACKUP_DIR="/home/jitpilot/backup"
-CONTAINER_NAME="JitPilot-db"
+BACKUP_DIR="/desired/path/to/backup"
+CONTAINER_NAME="container-db-name"
 MYSQL_USER="root"
 MYSQL_PASSWORD="password"
-MYSQL_DATABASE="jitpilot_db"
+MYSQL_DATABASE="DB_NAME"
 
 # Create backup file name with date and time
 BACKUP_FILE="backup-$(date +'%Y-%m-%d-%H-%M').sql"
